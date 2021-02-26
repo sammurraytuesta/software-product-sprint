@@ -8,6 +8,13 @@
   margin-top: 20px;
 }
 
-.main-image{
+.image{
     width: 650px;
+}
+
+.profile-pic{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 30%;
 }
