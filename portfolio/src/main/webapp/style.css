@@ -4,7 +4,7 @@
   width: 650px;
 }
 
-#greeting-container {
+#fact-container {
   margin-top: 20px;
 }
 
@@ -27,4 +27,8 @@ a{
     display: block;
     margin: 0 auto;
     width: 50%;
+}
+
+p{
+    margin-top: 10px;
 }
