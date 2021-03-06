@@ -154,6 +154,13 @@ svg{
     font-size: 2.5vh;
 }
 
+#hello-container{
+    color: var(--light);
+    font-size: 2vh;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 .comic{
     position: absolute;
     z-index: +1;
