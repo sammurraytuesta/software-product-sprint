@@ -2,7 +2,8 @@
 
 async function sayHello() { 
     const responseFromServer = await fetch('/hello'); 
-    const textFromResponse = await responseFromServer.text(); 
+    const jsonFromResponse = await responseFromServer.json(); 
     const helloContainer = document.getElementById('hello-container'); 
-    helloContainer.innerText = textFromResponse; 
+    helloContainer.innerText = jsonFromResponse[Math.floor(Math.random() * jsonFromResponse.length)];
+    console.log(jsonFromResponse[Math.floor(Math.random() * jsonFromResponse.length)]);
 }
