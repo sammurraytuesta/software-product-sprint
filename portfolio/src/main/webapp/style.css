@@ -7,3 +7,31 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+/* contact */
+.contact-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-items input[type="text"]{
+    border: 0.5vh solid lightgrey;
+    background-color: transparent;
+    width: 30vw;
+    margin-bottom: 2vh;
+}
+.contact-items textarea{
+    outline: none;
+    border: 0.5vh solid lightgrey;
+    background-color: transparent;
+    width: 30vw;
+    margin-bottom: 2vh;
+}
+.button{
+    text-align: center;
+    display: block;
+    border: 0.5vh solid lightgrey;
+    background-color: transparent;
+    text-decoration: none;
+    width: 10vw;
+}
