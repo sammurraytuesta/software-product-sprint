@@ -13,14 +13,14 @@
 // limitations under the License.
 
 $('document').ready(function () {
-    /* Lists the owl carousel specifications. */
-    $('.owl-carousel').owlCarousel({
-        center: true,
-        items: 3,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        margin: 20
-    });
+  /* Lists the owl carousel specifications. */
+  $('.owl-carousel').owlCarousel({
+    center: true,
+    items: 3,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    margin: 20
+  });
 });
