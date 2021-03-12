@@ -7,3 +7,9 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+#hello-container{  
+    font-size: 2vh; 
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+}
