@@ -7,3 +7,18 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+.owl-carousel{
+    position: absolute;
+    top: 25%;
+}
+
+.owl-item{
+    letter-spacing: 2px;
+    font-size: 2.5vh;
+}
+
+.item-wrapper{
+    padding: 10%;
+    height: 40vh;
+}
