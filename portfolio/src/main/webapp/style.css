@@ -4,6 +4,31 @@
   width: 650px;
 }
 
-#greeting-container {
+#fact-container {
   margin-top: 20px;
+}
+
+.banner{
+    width: 650px;
+}
+
+.profile-pic{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.image{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+p{
+    margin-top: 10px;
 }
