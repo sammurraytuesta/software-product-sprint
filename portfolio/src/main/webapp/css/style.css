@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* font-family: 'Bebas Neue', cursive; */
+
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 /* font-family: 'Fascinate', cursive; */
+
 :root {
     --light: white;
     --orange: #FDAE86;
@@ -17,7 +19,7 @@
     text-decoration: none;
 }
 
-html{
+html, body {
     scroll-behavior: smooth;
 }
 
@@ -50,7 +52,7 @@ html{
 
 #navbar nav ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 20px;
     text-align: center;
@@ -74,18 +76,18 @@ section {
     position: relative;
 }
 
-svg{
+svg {
     height: 100vh;
 }
 
-.home-outline{
+.home-outline {
     position: absolute;
     fill: none;
     top: -20%;
     left: 25%;
 }
 
-.jumbotron{
+.jumbotron {
     position: absolute;
     top: 53%;
     left: 53%;
@@ -100,14 +102,14 @@ svg{
     color: var(--pink);
 }
 
-.profile-pic{
+.profile-pic {
     fill: url(#pattern);
     stroke: var(--light);
     position: absolute;
     top: 5%;
 }
 
-.about-me{
+.about-me {
     position: absolute;
     top: 15%;
     right: 5%;
@@ -116,40 +118,39 @@ svg{
     font-size: 2.5vh;
 }
 
-.about-me .first-paragraph{
+.about-me .first-paragraph {
     margin-top: 10%;
 }
 
-
-.owl-carousel{
+.owl-carousel {
     position: absolute;
     top: 25%;
 }
 
-.owl-item{
+.owl-item {
     letter-spacing: 2px;
     font-size: 2.5vh;
 }
 
-.item-wrapper{
+.item-wrapper {
     padding: 10%;
     height: 40vh;
 }
 
-.project-bg{
+.project-bg {
     position: absolute;
     top: 48%;
     left: 46%;
     transform: translate(-50%, -50%);
 }
 
-.social-bsplash{
+.social-bsplash {
     position: absolute;
     bottom: 0%;
     right: 0%;
 }
 
-.social-blurb{
+.social-blurb {
     position: absolute;
     top: 15%;
     left: 5%;
@@ -158,26 +159,95 @@ svg{
     font-size: 2.5vh;
 }
 
-.comic{
+.comic {
     position: absolute;
     z-index: +1;
     bottom: 13%;
     right: 8%;
 }
-.comic img{
+
+.comic img {
     height: 60vh;
 }
-.caption{
+
+.caption {
     text-align: center;
     margin-bottom: 0%;
     letter-spacing: 2px;
     color: var(--dark);
 }
 
-.signature{
+.signature {
     color: var(--pink);
     font-size: 4vh;
-    font-family: 'Fascinate', cursive;;
+    font-family: 'Fascinate', cursive;
+    ;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+#greeting-container {
+    margin-top: 20px;
+}
+
+/* contact */
+
+.contact-bsplash{
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+}
+
+.form-outline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-items input[type="text"] {
+    border: none;
+    background-color: transparent;
+    width: 30vw;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.contact-items textarea {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 30vw;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.button {
+    text-align: center;
+    display: block;
+    border:none;
+    border-radius: 10px;
+    background-color: var(--pink);
+    text-decoration: none;
+    width: 10vw;
+    height: 5vh;
+    color: black;
 }
 
 footer {
