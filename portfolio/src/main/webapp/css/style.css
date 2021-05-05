@@ -52,7 +52,7 @@ html, body {
 
 #navbar nav ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 20px;
     text-align: center;
@@ -196,34 +196,58 @@ svg {
 
 /* contact */
 
+.contact-bsplash{
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+}
+
+.form-outline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .contact-items {
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .contact-items input[type="text"] {
-    border: 0.5vh solid lightgrey;
+    border: none;
     background-color: transparent;
     width: 30vw;
     margin-bottom: 2vh;
+    text-align: center;
+    font-size: 3vh;
 }
 
 .contact-items textarea {
     outline: none;
-    border: 0.5vh solid lightgrey;
+    border: none;
     background-color: transparent;
     width: 30vw;
     margin-bottom: 2vh;
+    text-align: center;
+    font-size: 3vh;
 }
 
 .button {
     text-align: center;
     display: block;
-    border: 0.5vh solid lightgrey;
-    background-color: transparent;
+    border:none;
+    border-radius: 10px;
+    background-color: var(--pink);
     text-decoration: none;
     width: 10vw;
+    height: 5vh;
+    color: black;
 }
 
 footer {
