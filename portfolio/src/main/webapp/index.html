@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAM | PORTFOLIO</title>
     <link rel="icon" href="images/favicon.ico" size="16x16" type="image/x-icon" />
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,7 +25,7 @@
     </div>
 
     <section id="home">
-      
+
         <svg class="home-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path fill="var(--orange)"
                 d="M26.7,-49.7C35.2,-41.2,43.4,-35.5,54.2,-27.6C65.1,-19.8,78.8,-9.9,80.5,1C82.2,11.9,72.1,23.8,61.1,31.5C50.1,39.2,38.4,42.6,28.1,45.1C17.7,47.5,8.9,48.9,-3.8,55.5C-16.5,62.1,-33,74,-46.7,73.5C-60.4,73,-71.3,60.2,-77.6,45.9C-83.9,31.6,-85.6,15.8,-81.3,2.5C-76.9,-10.8,-66.6,-21.6,-58.4,-32.8C-50.3,-43.9,-44.4,-55.4,-35.1,-63.4C-25.7,-71.5,-12.9,-76.2,-1.9,-72.9C9,-69.6,18.1,-58.3,26.7,-49.7Z"
@@ -96,70 +97,80 @@
                 transform="translate(100 100)" />
         </svg>
 
-        <div class="project-wrapper">
+        <div class="owl-carousel owl-theme owl-loaded">
+            <!-- Start of owl carousel. -->
+            <div class="owl-stage-outer">
+                <!-- Start of outer. -->
+                <div class="owl-stage">
+                    <!-- Start of inner. -->
 
-            <div class="item">
-                <div class="item-wrapper">
-                    <h2>Internet Dashboard</h2>
-                    <p>Jan 2021 – Present</p>
-                    <p>
-                        An independent project within Western Washington University's Internship in Internet Studies
-                        Program taking the pulse of the internet and displaying it in what could be considered the
-                        "front page of the internet." Considering eventual support for archival display.
-                    </p>
-                </div>
-            </div>
+                    <div class="owl-item">
+                        <div class="item-wrapper">
+                            <h2>Internet Dashboard</h2>
+                            <p>Jan 2021 – Present</p>
+                            <p>
+                                An independent project within Western Washington University's Internship in Internet
+                                Studies Program taking the pulse of the internet and displaying it in what could be
+                                considered the "front page of the internet." Considering eventual support for archival
+                                display.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="item">
-                <div class="item-wrapper">
-                    <h2>Index In Bounds</h2>
-                    <p>Dec 2020 – Present</p>
-                    <p>
-                        In the midst of developing a portfolio website with other research assistants for the "Index In
-                        Bounds" research lab at Western Washington University. Aimed at showcasing current projects and
-                        papers created through the lab as well as highlight past and current members.
-                    </p>
-                </div>
-            </div>
+                    <div class="owl-item">
+                        <div class="item-wrapper">
+                            <h2>Index In Bounds</h2>
+                            <p>Dec 2020 – Present</p>
+                            <p>
+                                In the midst of developing a portfolio website with other research assistants for the
+                                "Index In Bounds" research lab at Western Washington University. Aimed at showcasing
+                                current projects and papers created through the lab as well as highlight past and
+                                current members.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="item">
-                <div class="item-wrapper">
-                    <h2>Personal Portfolio</h2>
-                    <p>Dec 2020 – Present</p>
-                    <p>
-                        Personal Portfolio website to highlight and refine current HTML, CSS, JavaScript, and jQuery
-                        skills. Displays an in-depth look into stylistic choices and formatting methods. Not yet
-                        responsive to screen size. Actively being built upon.
-                    </p>
-                </div>
-            </div>
+                    <div class="owl-item">
+                        <div class="item-wrapper">
+                            <h2>Personal Portfolio</h2>
+                            <p>Dec 2020 – Present</p>
+                            <p>
+                                Personal Portfolio website to highlight and refine current HTML, CSS, JavaScript, and
+                                jQuery skills. Displays an in-depth look into stylistic choices and formatting methods.
+                                Not yet responsive to screen size. Actively being built upon.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="item">
-                <div class="item-wrapper">
-                    <h2>Digital Privacy Detectives</h2>
-                    <p>Jul 2020 – Present</p>
-                    <p>
-                        Digital privacy is created using technology, personal discretion, and social norms. How do we
-                        teach and transform socially negotiated digital privacy norms using digital interactive
-                        narratives? Digital Privacy Detectives is an interactive web game digitally designed to provide
-                        a solution to this issue.
-                    </p>
-                </div>
-            </div>
+                    <div class="owl-item">
+                        <div class="item-wrapper">
+                            <h2>Digital Privacy Detectives</h2>
+                            <p>Jul 2020 – Present</p>
+                            <p>
+                                Digital privacy is created using technology, personal discretion, and social norms. How
+                                do we teach and transform socially negotiated digital privacy norms using digital
+                                interactive narratives? Digital Privacy Detectives is an interactive web game digitally
+                                designed to provide a solution to this issue.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="item">
-                <div class="item-wrapper">
-                    <h2>Book Store</h2>
-                    <p>May 2020 – Jun 2020</p>
-                    <p>
-                        Bookstore website aimed at storing customer information to be retrieved for future purchases in
-                        a database with all product information dynamically generated using PHP and MySQL. Include files
-                        are used for all code that is used more than once (i.e. search/browse menu, ListAuthor function,
-                        header, and footer).
-                    </p>
-                </div>
-            </div>
-        </div><!-- End of project wrapper. -->
+                    <div class="owl-item">
+                        <div class="item-wrapper">
+                            <h2>Book Store</h2>
+                            <p>May 2020 – Jun 2020</p>
+                            <p>
+                                Bookstore website aimed at storing customer information to be retrieved for future
+                                purchases in a database with all product information dynamically generated using PHP and
+                                MySQL. Include files are used for all code that is used more than once (i.e.
+                                search/browse menu, ListAuthor function, header, and footer).
+                            </p>
+                        </div>
+                    </div>
+
+                </div> <!-- End of inner. -->
+            </div> <!-- End of outer. -->
+        </div><!-- End of owl carousel. -->
     </section>
 
     <section id="social">
@@ -178,24 +189,24 @@
         <div class="social-blurb">
             <h1>Connect with me!</h1>
             <p>I am available on these forms of social media:
-            <ul>
-                <a href="https://www.linkedin.com/in/sammurraytuesta/">
-                    <li>LinkedIn: linkedin.com/in/sammurraytuesta/</li>
-                </a>
-                <a href="https://github.com/sammurraytuesta">
-                    <li>GitHub: sammurraytuesta</li>
-                </a>
-                <a href="https://gitlab.com/sammurraytuesta">
-                    <li>Gitlab: sammurraytuesta</li>
-                </a>
-                <a href="https://www.instagram.com/sammurraytuesta/">
-                    <li>Instagram: @sammurraytuesta</li>
-                </a>
-                <li>Slack: smurraytuesta@gmail.com</li>
-                <li>Email: smurraytuesta@gmail.com</li>
-            </ul>
-            Feel free to send me a follow or ping me on LinkedIn, Slack, or by Email for any future collaborations!
-            Expect a response anywhere from 2-3 days! I am happy to respond to any business inquiries!
+                <ul>
+                    <a href="https://www.linkedin.com/in/sammurraytuesta/">
+                        <li>LinkedIn: linkedin.com/in/sammurraytuesta/</li>
+                    </a>
+                    <a href="https://github.com/sammurraytuesta">
+                        <li>GitHub: sammurraytuesta</li>
+                    </a>
+                    <a href="https://gitlab.com/sammurraytuesta">
+                        <li>Gitlab: sammurraytuesta</li>
+                    </a>
+                    <a href="https://www.instagram.com/sammurraytuesta/">
+                        <li>Instagram: @sammurraytuesta</li>
+                    </a>
+                    <li>Slack: smurraytuesta@gmail.com</li>
+                    <li>Email: smurraytuesta@gmail.com</li>
+                </ul>
+                Feel free to send me a follow or ping me on LinkedIn, Slack, or by Email for any future collaborations!
+                Expect a response anywhere from 2-3 days! I am happy to respond to any business inquiries!
             </p>
             <p>Thank you for visiting my portfolio page! I hope you enjoyed your stay! Come again soon!</p>
 
@@ -206,6 +217,10 @@
 
     <footer>&copy;2020 Samantha Murray Tuesta</footer>
 
+    <!-- owl carousel -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

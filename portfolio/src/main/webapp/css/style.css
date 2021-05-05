@@ -17,10 +17,6 @@
     text-decoration: none;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 /* navbar */
 
 #navbar {
@@ -120,14 +116,15 @@ svg{
     margin-top: 10%;
 }
 
-.project-wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
+.owl-carousel{
+    position: absolute;
+    top: 25%;
 }
 
-.item{
-    grid-template-columns: repeat(5, 1fr);
-    z-index: +1;
+.owl-item{
+    letter-spacing: 2px;
+    font-size: 2.5vh;
 }
 
 .item-wrapper{
